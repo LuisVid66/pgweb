@@ -1,4 +1,0 @@
-Version de Python: 3.12.3
-PIP: 24.0
-Virtualenv: 20.26.1
-Django: 5.0.4
