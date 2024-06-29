@@ -1,0 +1,23 @@
+/* styles.css */
+.mi-div {
+    width: 50%;
+    height: 600px; 
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    float: left; 
+    box-sizing: border-box; 
+}
+.mi-div:hover {
+    overflow-y: scroll; 
+}
+.chatbot-container {
+    width: 50%; 
+    height: 600px; 
+    background-color: #f0f0f0;
+    float: right; 
+    box-sizing: border-box; 
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+

@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    background: rgba(22,34,57,0.95); 
+}
+
+
+#main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: "FontAwesome";
+    src: url("fontawesome-webfont.woff");
+  }
+  
+#vida{
+    font-family: "FontAwesome", sans-serif;
+    font-size: 200%;
+}
+
+/*parte superior*/
+
+#barraSuperior{
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    padding-top: 3vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+#IAcademico{
+    padding-top: 1vh;
+}
+
+#pagbtn{
+    display: inline-block;
+    font-size: 1.4rem;
+    align-content: center;
+    border: 2px solid #0c1228;
+    color: #fff;
+    background: #0c1228;
+    border-radius: 15px;
+    width: 18vw;
+    height: 5.4vh;
+}
+
+#vidas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 3rem;
+    color: #fff;
+    padding-top: 1vh;
+}
+
+.vida{
+    padding-right: 2vw;
+    padding-top: 1vh;
+}
+
+/*ejercicio*/
+
+#seccionEjercicio{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    padding-top: 3.5vh;
+}
+
+#cuadroEjercicio{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border: 2px solid #0c1228;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+#parteSuperiorEjercicio{
+    display: flex;
+    text-align: left;
+    padding: 5vh 0 0 2.2vw;
+}
+
+#numeracion{
+    font-size: 2.4rem;
+    
+}
+
+#ejercicio{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 3.6vh 3vw;
+}
+
+#ejercicioTexto{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+#respuestasbtn{
+    display: flex;
+    flex-direction: column;
+    padding: 2.4vh 2vw;
+}
+
+.respuesta{
+    display: inline-block;
+    align-content: center;
+    border: 2px solid #01579B;
+    color: #fff;
+    background: #01579B;
+    border-radius: 15px;
+    width: 15vw;
+    height: 5vh;
+    font-size: 1.4rem;
+    margin: 1.6vh 1.6vw 1.6vh 1.6vw;
+}
+
+.respuesta:hover:not([disabled]){
+    border: 2px solid white;
+}
+
+.respuesta:disabled{
+    cursor: no-drop;
+}
+
+/* ventana emergente de resultados*/
+#ventana{
+    display: none;
+    background-color: #504e4e;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+#ventanaEmergente{
+    background-color: #fff;
+    width: 45vw;
+    min-height: 60vh;
+    padding: 2vh 2vw;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#tituloEmergente{
+    font-size: 3.5rem;
+    margin: 0;
+    padding-top: 3vh;
+    height: 8vh;
+    text-align: center;
+}
+
+#resultado{
+    font-size: 11rem;
+    height: 40vh;
+    align-content: center;
+}
+
+#cerrarbtn{
+    width: 10vw;
+    height: 6vh;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    margin: 3vh 3vw;
+    align-content: center;
+    text-align: center;
+}
+
+#cerrarbtn:hover{
+    border: 2px solid #172238;
+}
+
+/* barra inferior*/
+
+#barraInferior{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3.5vh;
+}
+
+
+#IAayuda{
+    padding-right: 13vw;
+    padding-left: 13vw;
+}
+
+#IAbtn{
+    display: inline-block;
+    font-size: 1.4rem;
+    align-content: center;
+    border: 2px solid #0c1228;
+    color: #fff;
+    background: #0c1228;
+    border-radius: 15px;
+    width: 18vw;
+    height: 5.4vh;
+}
+
+#chatbot{
+    display: block;
+    height: 550px;
+    width: 400px;
+    align-content: center;
+    border: 2px solid #0c1228;
+    background-color: #fff;
+    position: absolute;
+    left: 39.5vw;
+    bottom: 6.5vh;
+}
+
+#siguientePregunta{
+    padding-right: 13vw;
+    padding-left: 13vw;
+}
+
+#siguientePreguntabtn{
+    display: inline-block;
+    font-size: 1.4rem;
+    align-content: center;
+    border: 2px solid #0c1228;
+    color: #fff;
+    background: #0c1228;
+    border-radius: 15px;
+    width: 18vw;
+    height: 5.4vh;
+}
+
+
+.correcto{
+    background: #9aeabc;
+}
+.incorrecto{
+    background: #ff9393;
+}
