@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Ingles Tema 3</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="/css/main.css">
+	<link rel="stylesheet" href="/css/mainCursos.css">
+</head>
+<body>
+	<!-- SideBar -->
+	<section class="full-box cover dashboard-sideBar">
+		<div class="full-box dashboard-sideBar-bg btn-menu-dashboard"></div>
+		<div class="full-box dashboard-sideBar-ct">
+			<!--SideBar Title -->
+			<div class="full-box text-uppercase text-center text-titles dashboard-sideBar-title">
+				IAcademico <i class="zmdi zmdi-close btn-menu-dashboard visible-xs"></i>
+			</div>
+			<!-- SideBar User info -->
+			<div class="full-box dashboard-sideBar-UserInfo">
+				<figure class="full-box">
+					<img src="/assets/avatars/AdminMaleAvatar.png" alt="UserIcon">
+					<figcaption class="text-center text-titles">Usuario101</figcaption>
+				</figure>
+				<ul class="full-box list-unstyled text-center">
+					<li>
+						<a href="/my-data.html" title="Mis datos">
+							<i class="zmdi zmdi-account-circle"></i>
+						</a>
+					</li>
+					<li>
+						<a href="/my-account.html" title="Mi cuenta">
+							<i class="zmdi zmdi-settings"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#!" title="Salir del sistema" class="btn-exit-system">
+							<i class="zmdi zmdi-power"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- SideBar Menu -->
+			<ul class="list-unstyled full-box dashboard-sideBar-Menu">
+				<li>
+					<a href="/home.html">
+						<i class=""></i> Inicio
+					</a>
+				</li>
+				<li>
+					<a href="#!" class="btn-sideBar-SubMenu">
+						<i class="#"></i> Cursos <i class="zmdi zmdi-caret-down pull-right"></i>
+					</a>
+					<ul class="list-unstyled full-box">
+						<li>
+							<a href="/cursos/cdiferencial/calculodiferencial.html"><i class="curso1"></i> Cálculo Diferencial</a>
+						</li>
+						<li>
+							<a href="/cursos/ingles/ingles.html"><i class="curso2"></i> Ingles</a>
+						</li>
+						<li>
+							<a href="/cursos/python/python.html"><i class="curso3"></i> Python</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<li>
+					<a href="#">
+						<i class="comunidad"></i> Comunidad
+					</a>
+					<li>
+					<a href="/catalog.html">
+							<i class="documentos"></i> Documentos
+					</a>
+					<a href="/book.html">
+						<i class="subirDocumentos"></i> Subir Documento
+					</a>
+					</a>
+					<a href="/normas.html">
+						<i class="normas"></i> Normas
+					</a>
+					</a>
+					<a href="/donacion.html">
+						<i class="donacion"></i> Haz una donación
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- Content page-->
+	<section class="full-box dashboard-contentPage">
+		
+		<!-- Content page -->
+		<div class="container-fluid">
+			<div class="page-header">
+			  <h1 class="text-titles">Tema: Using There is, There Are</h1>
+			</div>
+		</div>
+		<div class="full-box text-center" style="padding: 30px 10px;">
+			<div class="container">
+				<!--CONTENIDO CURSO-->
+				<div class="mi-div">
+					<p>
+						Utilizamos “there + be” (to be: is,are) para hablar sobre la existencia (o no) de cosas o personas. “There + be” se puede expresar en todos los tiempos verbales, pero a diferencia del español, en inglés conjugamos este verbo si el nombre que va después está en plural o en singular y si es contable o incontable.
+						<p style="font-size: 25px;">
+							There is
+						</p>
+						Se utiliza “there is” con nombres contables en singular y con incontables. Hay una forma corta: “there's”.
+						<pre>
+There's one car.			(Hay un coche)
+There's not an apple.		(No hay una manzana)
+Is there a pen?			(¿Hay un lapicero?)
+</pre>
+						Para incontables.
+						<pre>
+There is milk.			(Hay leche)
+There is not time.		(No hay tiempo)
+Is there sugar?			(¿Hay azúcar?)
+</pre>
+						<p style="font-size: 25px;">
+							There are
+						</p>
+						Se utiliza “there are” sólo con nombres contables en plural. No hay una forma corta.
+						<pre>
+There are five pencils.		(Hay cinco lápices.)
+There are not two cars.		(No hay dos coches.)
+Are there many people?		(¿Hay mucha gente?)
+</pre>
+					</p>
+				</div>
+				<!--CONTENIDO CURSO-->
+				<div class="chatbot-container">
+					<p>
+					</p>
+				</div>
+				<button onclick="aumentarProgreso('tema2cd')"><a href="/cursos/ingles/ingles.html">Avanzar en Ingles</a></button>
+			</div>
+		</div>
+		
+	</section>
+
+	<!--====== Scripts -->
+	<script src="/js/jquery-3.1.1.min.js"></script>
+	<script src="/js/sweetalert2.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/material.min.js"></script>
+	<script src="/js/ripples.min.js"></script>
+	<script src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="/js/main.js"></script>
+	<script src="/js/jcursos.js"></script>
+	<script src="/js/verificadorSEMnueva.js"></script>
+	<script>
+		$.material.init();
+	</script>
+</body>
+</html>
